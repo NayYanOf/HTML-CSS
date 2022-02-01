@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas em CSS</title>
+    <style>
+        h1 {
+            background-color: lightgrey;
+            width: 200px;
+            height: 200px;
+
+            padding: 1em;
+            margin: 20px 20px 40px 10px;
+
+            border: 5px solid green;
+
+            outline: 10px dashed salmon;
+        }
+
+        a {
+            border: 5px solid red;
+
+            padding: 0.5em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Os títulos são caixas block-level</h1>
+    <p>Os parágrafos também, porém os <a href="#">Links são exemplos de inline-level</a>, pois a caixa de conteúdo segue ao lado do conteúdo.</p>
+    <p>Já o block-level é mostrado em uma linha própria, como esse texto aqui.</p>
+</body>
+</html>

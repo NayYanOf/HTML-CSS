@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+:root {
+    --verde1: #c5ebd6;
+    --verde2: #83e1ad;
+    --verde3: #3ddc84;
+    --verde4: #2fa866;
+    --verde5: #1a5c37;
+    --verde6: #063d1e;
+
+    --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive;
+}
+
+body {
+    background-color: var(--verde1);
+    font-family: var(--fonte-principal);
+    margin: 0px;
+    min-width: 280px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(23, 190, 23), rgb(6, 49, 6));
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 1em;
+    width: 100%;
+}
+
+header > h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: var(--fonte-destaque);
+}
+
+header > p {
+    font-size: 20px;
+}
+
+header > nav {
+    text-align: left;
+    margin: 0px;
+    font-weight: 500;
+    padding: 1em 1em 0em 1em;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 1em;
+}
+
+header > nav > a:hover {
+    background-color: var(--verde2);
+    border-radius: 5px 5px 0px 0px;
+    color: var(--verde5);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 2em;
+    box-shadow: 0px 0px 10px black;
+    color: var(--verde5);
+    font-family: var(--fonte-android);
+    max-width: 1200px;
+    min-width: 280px;
+}
+
+main > p {
+    font-family: var(--fonte-principal);
+    text-indent: 20px;
+    text-align: justify;
+}
+
+main > h2 {
+    background-color: var(--verde1);
+}
+
+section {
+    overflow: hidden;
+}
+
+section#video {
+    background-color: var(--verde5);
+    text-align: center;
+    padding: 1em;
+}
+
+section#extra {
+    background-color: var(--verde2);
+    font-family: var(--fonte-principal);
+    color: black;
+    padding: 0px 0px 1em 0px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.226);
+}
+
+section#extra > p {
+    text-indent: 20px;
+}
+
+section#extra > h3 {
+    color: white;
+    background-color: var(--verde4);
+    margin: 0px;
+    padding: 1em;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div {
+    display: inline-block;
+}
+
+section#bugdroid {
+    text-align: center;
+}
+
+section#irina {
+    text-align: center;
+}
+
+section#dan {
+    text-align: center;
+}
+
+section#video-p {
+    display: none;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--verde6);
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 0.1em;
+}
+
+footer > p > a {
+    text-decoration: underline;
+    background-color: var(--verde6);
+    font-weight: 600;
+    color: white;
+}
+
+p > a {
+    background-color: var(--verde2);
+    text-decoration: none;
+    color: var(--verde5);
+    padding: 5px;
+}
+
+p > a:hover {
+    color: var(--verde6);
+    background-color: var(--verde3);
+}
+
+strong {
+    background-color: var(--verde5);
+    color: white;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 760px) {
+    main {
+        width: 100%;
+        margin: 0px;
+        padding: 1em;
+        text-align: center;
+    }
+
+    main > p {
+        text-align: justify;
+    }
+
+    section#video {
+        display: none;
+    }
+
+    section#video-p {
+        display: block;
+        background-color: green;
+        padding: 1em;
+    }
+
+    header > nav {
+        text-align: center;
+    }
+
+    section {
+        overflow: hidden;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section#extra {
+        text-align: justify;
+    }
+
+    section#extra > p {
+        margin: 1em;
+    }
+
+    section#extra > h3 {
+        text-align: center;
+    }
+}

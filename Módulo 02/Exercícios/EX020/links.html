@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*
+            #   = id
+            .   = classe
+            >   = childre
+            :   = pseudo-class
+            ::  = pseudo-element
+        */
+
+        body {
+            font: normal 500 1em 'Segoe UI', sans-serif;
+        }
+        
+        a {
+            color: rgb(112, 38, 25);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+
+        .especial::after {
+            content: ' (ACESSE)';
+        }
+
+        .especial::before {
+            content: '-> ';
+        }
+
+        a::after {
+            content: ' LINK';
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Pseudo Classes</h1>
+    <ul>
+        <li><a href="https://youtube.com/c/yizilino" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://altaperformanceweb.com.br" target="_blank" class="especial">Onde Trabalho</a></li>
+        <li><a href="https://behance.net/yanramos" target="_blank" class="especial">Meu Portfólio</a></li>
+    </ul>
+</body>
+</html>

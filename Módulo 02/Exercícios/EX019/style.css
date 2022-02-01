@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+    O que é id no HTML    = # no CSS
+    O que é class no HTML = . no CSS
+*/
+
+body {
+    font: normal 600 1em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(54, 141, 111);
+
+    background-color: rgb(220, 255, 244);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 81, 0);
+}
+
+h1#principal {
+    background-color: rgb(170, 255, 227);
+}
+
+h3 {
+    padding: 5px;
+}
+
+.basic {
+    color: white;
+    background-color: rgb(0, 104, 0);
+}
+
+.med {
+    color: #333333;
+    background-color: yellow;
+}
+
+.adv {
+    color: white;
+    background-color: rgb(95, 0, 0);    
+}
+
+p {
+    color: #333333;
+}
+
+.destaque {
+    background-color: rgb(255, 196, 0);
+    color: rgb(51, 22, 240);
+}

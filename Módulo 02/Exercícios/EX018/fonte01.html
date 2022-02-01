@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        /* Toda regra (em CSS representada por @) deve ser chamada no início da tag style */
+        @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+        h1 {
+            /* Ao invés de usar os parâmetro separados das fontes...
+            
+            font-style
+            font-weight
+            font-size
+            font-family
+
+            podemos usar sua shorthand:
+            */
+            font: bold 3em 'IM Fell English SC', serif;
+
+            /* Porém a ordem deve ser respeitada, como mostraado acima */
+        }
+
+        p {
+            font: italic 600 1em 'Lato', sans-serif;
+        }
+
+        h2 {
+            font: 800 2em 'Ephesis', sans-serif;
+        }
+        
+    </style>
+    <title>Fontes com o Google Fonts</title>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos accusantium sint qui commodi nisi officiis quia ratione, eaque nobis voluptatibus dolores reprehenderit hic sed quod aliquid quae ad sit mollitia?</p>
+
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, atque cumque eveniet architecto animi provident at autem dolorem amet possimus vitae omnis laboriosam adipisci eligendi beatae, facilis accusantium voluptates ut.</p>
+</body>
+</html>
