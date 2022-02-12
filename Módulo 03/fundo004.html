@@ -7,14 +7,19 @@
     <title>Alinhamento Vertical</title>
     <style>
         #container {
+            position: relative;
             background-color: purple;
             height: 500px;
         }
 
         #content {
+            position: absolute;
             background-color: yellow;
             height: 200px;
             width: 400px;
+
+            top: 50%;
+            left: 50%;
         }
     </style>
 </head>
