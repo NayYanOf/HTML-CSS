@@ -41,6 +41,17 @@ a.link_ref:hover {
     text-decoration: underline;
 }
 
+/* Estilo das boas-vindas */
+section#welcome {
+    padding: 1em 0em;
+    margin: 0px;
+    background-color: chocolate;
+    color: white;
+    font: normal 1.5em Roboto;
+    text-align: center;
+
+}
+
 /* Estilo do conteúdo */
 section {
     margin: 0px;
@@ -60,6 +71,11 @@ div.content {
     padding: 0em 1em;
     margin: 2em 0em;
     color: white;
+}
+
+section#first {
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 section#parx1 {
