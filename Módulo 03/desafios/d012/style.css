@@ -103,3 +103,33 @@ footer > p > a:hover {
     color: chocolate;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 1036px) {
+    h1 {
+        font-size: 7em;
+    }
+
+    p {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    p {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 3em;
+    }
+}
